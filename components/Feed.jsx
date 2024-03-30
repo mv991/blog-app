@@ -29,7 +29,7 @@ function Feed() {
     'Content-Type': 'multipart/form-data',
       }
     })
-    }
+    
     const data = await response.json();
     console.log(data, "data");
     setAllPosts(data);
