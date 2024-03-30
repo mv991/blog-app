@@ -23,7 +23,7 @@ function Feed() {
   const [searchedResults, setSearchedResults] = useState([]);
 
   const fetchPosts = async () => {
-    const response = await fetch("/api/prompt"{
+    const response = await fetch("/api/prompt", {
         headers: {
     Accept: 'application/json',
     'Content-Type': 'multipart/form-data',
